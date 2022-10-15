@@ -40,7 +40,7 @@ const Navbar = () => {
                 key={nav.id}
                 // using string interpol to set styles
                 className={`font-poppins font-normal text-white text-[16px] ${
-                  index === navLinks.length - 1 ? "mr-0" : "mr-10"
+                  index === navLinks.length - 1 ? "mr-0" : "mb-4"
                 } cursor-pointer`}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
