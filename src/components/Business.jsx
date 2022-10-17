@@ -14,10 +14,10 @@ const FeatureCard = ({ icon, title, content, index }) => (
       <img src={icon} alt="icon" className="w-[50%] h-[50%] object-contain" />
     </div>
     <div className="flex flex-1 flex-col ml-3">
-      <h4 className="font-poppoins font-semibold text-white text-[18px] leading-[23px] mb-1">
+      <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1">
         {title}
       </h4>
-      <p className="font-poppoins font-normal text-dimWhite text-[16px] leading-[24px] mb-1">
+      <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1">
         {content}
       </p>
     </div>
@@ -37,7 +37,7 @@ const Business = () => {
           building credit, earning rewards and saving money. But with hundreds
           of credit cards on the market.
         </p>
-        <Button styles="mt-10" />
+        <Button styles={`mt-10`} />
       </div>
       <div className={`${layout.sectionImg} flex flex-col`}>
         {features.map((feature, index) => (

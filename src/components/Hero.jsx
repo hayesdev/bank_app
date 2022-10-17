@@ -25,7 +25,7 @@ const Hero = () => (
         </div>
       </div>
       <h2 className="w-full font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading[100px] leading-[75px]">
-        Payment Method
+        Payment Method.
       </h2>
       <p className={`max-w-[470px] mt-5 ${styles.paragraph}`}>
         Our team of experts uses a methodology to identify the credit cards most
