@@ -14,7 +14,8 @@ const CardDeal = () => (
         ducimus facilis doloremque excepturi praesentium ex quo rerum voluptate
         sequi commodi!
       </p>
-      <Button />
+      {/* prop for button component */}
+      <Button styles={"mt-10"} />
     </div>
     <div className={layout.sectionImg}>
       <img src={card} alt="" className="w-[100%] h-[100%]" />

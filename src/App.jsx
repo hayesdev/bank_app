@@ -25,6 +25,7 @@ const App = () => (
         <Hero />
       </div>
     </div>
+    {/* added correct padding and flex properties */}
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Stats />

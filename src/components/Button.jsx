@@ -1,5 +1,6 @@
 import React from "react";
 
+// use styles prop for button in other components
 const Button = ({ styles }) => {
   return (
     <button

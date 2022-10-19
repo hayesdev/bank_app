@@ -37,6 +37,7 @@ const Business = () => {
           building credit, earning rewards and saving money. But with hundreds
           of credit cards on the market.
         </p>
+        {/* prop for button component */}
         <Button styles={`mt-10`} />
       </div>
       <div className={`${layout.sectionImg} flex flex-col`}>
